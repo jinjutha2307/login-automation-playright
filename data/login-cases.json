@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Asana Demo Login + verify Web Application board",
+    "appPath": "/",
+    "credentials": { "email": "admin", "password": "password123" },
+    "board": "Web Application",
+    "column": "To Do",
+    "taskTitle": "Implement user authentication",
+    "tags": ["Feature", "High Priority"]
+  }
+]
