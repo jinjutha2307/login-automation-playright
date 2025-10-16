@@ -7,12 +7,12 @@ export default defineConfig({
   retries: 1, 
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
-    baseURL: 'https://animated-gingersnap-8cf7f2.netlify.app',
-    trace: 'on-first-retry',      
-    screenshot: 'only-on-failure', 
+    baseURL: 'https://animated-gingersnap-8cf7f2.netlify.app/',
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     viewport: { width: 1280, height: 800 },
-    headless: true,               
+    headless: false,               
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
